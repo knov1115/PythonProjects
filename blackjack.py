@@ -1,5 +1,5 @@
 import random
-
+#testing
 class Game:
 	def __init__(self):
 		self.player_cards = []
@@ -49,7 +49,7 @@ class Game:
 
 	def ask_for_new_card(self):
 		player_choice_draw = input("Hit or Stay?: ")
-		
+
 		if player_choice_draw == "Hit":
 			print("Giving you a new card...")
 			return self.new_card()
